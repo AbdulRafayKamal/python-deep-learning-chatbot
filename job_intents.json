@@ -1,0 +1,257 @@
+{
+  "intents": [
+     {"tag": "greeting",
+     "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey","Hi"],
+     "responses": ["Hi stranger","how can I help","Hola", "Hey dude", "You again", "Welcome to Suffa"]
+     },
+    {"tag": "health",
+     "patterns": ["How are you","how are you?","howareyou"],
+     "responses": ["I'm good." ,"I'm good, what about you?", "Fine","I'm great! How can I help you?"]
+     },
+    {"tag": "health1",
+     "patterns": ["fine","Im fine?","Im am good","good"],
+     "responses": ["That's great! how may I help you?"]
+     },
+    {"tag": "greetings1",
+     "patterns": ["Good Morning!", "good morning"],
+     "responses": ["Hello! Good Morning"]
+     },
+    {"tag": "greetings2",
+     "patterns": ["Hi, nice to meet you.", "nice to meet you", "nice"],
+     "responses": ["Thank you."]
+     },
+      {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "See you again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Thanks alot"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude"]
+    },
+      {"tag": "information_related_to_uni",
+     "patterns": ["I need some information.", "I need info.", "information", "info", "query", "question"],
+     "responses": ["Yes, Please ask any query or question related to university. I am here to answer your question."]
+    },
+      {"tag": "punctuation",
+     "patterns": [".","?",",","?","/","'","<",">","!","@"],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "I didn't understand", "Please ask properly!"]
+    },
+      {"tag": "whatques",
+     "patterns": ["what?", "what are?","question", "who are?", "Hey,can", "You knw?","What can", "How's?", "How"],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+    },
+      {"tag": "name",
+      "patterns": ["What is your name", "name", "Whats your name", "Tell me your name", "Who are you", "are you a bot?", "Tell me about yourself", "You are", "You suffian bot?", "Are you suffa bot?"],
+      "responses": ["I am Suffian Bot!", "My name is Suffian Bot", "You can call me SB for short", "I am Suffian, my friends call me SB", "Suffian is my name", "You can call me suffian"]
+    },
+      {"tag": "options",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+       "responses": ["I can tell you about Suffa University", "I can guide you about Suffa", ""]
+    },
+      {"tag": "option1",
+       "patterns": ["what degrees are available?", "which programs does suffa offer?", "suffa programs", "info about suffa programs", "suffa programs details", "which degree does suffa offer?", "degree", "programs", "suffa degree"],
+       "responses": ["We offer multiple programs in bachelors, masters and in PhD.Type<br>1 for bachelors,<br>2 for masters<br>3 for PhD programs"]
+    },
+      {"tag": "Bachelor_programs",
+       "patterns": ["1","bachelor", "bachelor degree", "Bachelors degree", "bachelor degree programs", "degree programs in bachelors"],
+       "responses": ["We offer Bachelors Degree in <br>1)BS (Computer Science).<br>2)BS (Electrical).<br>3)BS (Mechanical).<br>4)BE (Civil).<br>5)BS (International Relations).<br>6)BS (English).<br>7)BS Software Engineering.<br>8)BS Data Science.<br>9)BBA.<br>10)BS (Business Analytics & Programming.<br>11)BS (Accounting & Finance).<br>12)BS (Psychology)." ]
+     },
+      {"tag": "Master_programs",
+       "patterns": ["2","Masters", "Masters programs", "master degree", "degree programs in masters"],
+       "responses": ["We offer Masters Degree in <br>1)ME (Mechanical).<br>2)ME Electrical.<br>3)MS (Computer Science).<br>4)MS (Management Science).<br>5)MBA"]
+    },
+    {"tag": "PhD_programs",
+       "patterns": ["3", "Phd", "Phd programs", "phd degree", "degree programs in phd"],
+       "responses": ["We offer Phd Degree in <br>1)PhD (Mechanical Engineering).<br>2)PhD (Electrical Engineering).<br>3)Phd (Management Sciences).<br>4)Phd (Computer Science)."]
+    },
+    {"tag": "scholarship",
+     "patterns": ["tell me about scholarship", "what about suffa scholarship?", "are there scholarship available?", "scholarship"],
+     "responses": ["Yes scholarship are available at Suffa."]
+    },
+     {"tag": "loan",
+     "patterns": ["tell me about loan", "what about suffa financial/aid", "are there loans available?", "loan", "loans", "financial", "financial loan", "financial aid"],
+     "responses": ["Yes Financial loan/Aid are available at Suffa.", "We gives loans to students at suffa"]
+    },
+     {"tag": "admission",
+       "patterns": ["I want to know about admissions", "are admission open?", "admission", "When admissions are open?" , "Can i get admission in suffa", "Can i get admission"],
+     "responses": ["Admission are opened only once in a year in May/June/July/August."]
+    },
+     {"tag": "admission1",
+       "patterns": ["Can i get admission in suffa", "Can i get admission", "I need admission"],
+     "responses": ["Yes, you can get admission.","We give admissions"]
+    },
+     {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"],
+     "context": [""]
+     },
+     {"tag": "summers",
+     "patterns": ["What about summers session?", "summers", "summer session", "session of summer","summer"],
+     "responses": ["We also offer courses in summers but only for improvement or passing the subjects."]
+    },
+      {"tag": "admission",
+       "patterns": ["I want to know about admissions", "are admission open?", "admission", "When admissions are open?" , "Can i get admission in suffa", "Can i get admission"],
+     "responses": ["Admission are opened only once in a year in May/June/July/August."]
+    },
+    {"tag": "criteria",
+       "patterns": ["can you tell me the minimum criteria or percentage to get admission in the university?","minimum criteria", "criteria"],
+     "responses": ["Minimum criteria to apply is 60%. Further eligibility criteria details available on website."]
+    },
+     {"tag": "NAT",
+       "patterns": ["can we apply on the basis of NAT tests results?", "NAT Results", "NAT"],
+     "responses": ["yes, we accept it if you meet the specific criteria."]
+    },
+    {"tag": "A_Level",
+       "patterns": ["Can an A-Level student apply?", "I am an A-level Student, can i apply?", "A level", "A-level"],
+     "responses": ["Yes, ofcourse A Level student can apply."]
+    },
+    {"tag": "Fees",
+       "patterns": ["please tell me about fees structure.", "Fees?", "fee", "semester fee"],
+     "responses": ["Fee structure for: <br>Engineering department is 95,000.<br>Management Science departments is 65,000."]
+    },
+    {"tag": "Installments",
+       "patterns": ["can we pay the fees in installments?", "installments?", "installments", "install"],
+     "responses": ["Ofcourse, its' available."]
+    },
+    {"tag": "option2",
+       "patterns": ["does suffa offer Phd and Masters programs?"],
+     "responses": ["Yes, we offer both of them too."]
+    },
+    {"tag": "uniform",
+       "patterns": ["is there any specific uniform for students?", "uniform"],
+     "responses": ["no, students can wear formal dresses."]
+    },
+    {"tag": "exams",
+       "patterns": ["What about exams?","tell about exams","exams", "examination", "exam week", "exam detail","assessments"],
+     "responses": ["we conduct mid and final terms after every 8 weeks."]
+    },
+    {"tag": "semester_duration",
+       "patterns": ["how long does the semester duration is?", "how long is the semester", "duration", "duration of semester", "semester duration"],
+     "responses": ["It's 4 months long.", "Semester duration is 4 months", "Semester is of 4 months"]
+    },
+    {"tag": "neg_marks",
+       "patterns": ["is there any negative marking?", "negative marking", "neg marking", "negative", "marks"],
+     "responses": ["Yes, negative marking is apply during checking."]
+    },
+    {"tag": "entry_test",
+       "patterns": ["tell me about entry test?", "entrytest", "entry test", "test"],
+     "responses": ["its information available on website."]
+    },
+    {"tag": "self_finance",
+       "patterns": ["does suffa offers self-finance seats?", "self-finance", "self finance", "seats"],
+     "responses": ["No."]
+    },
+    {"tag": "Grading_system",
+       "patterns": ["Which grading system is followed in suffa?", "grading system", "grades", "grade","results","result"],
+     "responses": ["RGS Grading System is followed."]
+    },
+    {"tag": "admission_policy",
+       "patterns": ["tell about the policies regarding cancellation of the admission.","cancellation", "admission cancel"],
+     "responses": ["if you fail continuously in 3 papers or having less than 2.0 cgpa in 2 semester, we drop that student."]
+    },
+    {"tag": "fyp",
+       "patterns": ["when students get offers for fyp?", "tell about fyp", "fyp","Final year Project", "project"],
+     "responses": ["FYP will be offer in the last year of degree."]
+    },
+    {"tag": "course_withdraw_info",
+       "patterns": ["Can we withdraw from any course?"],
+     "responses": ["Yes, you can in the first 2 weeks of semester."]
+    },
+    {"tag": "credit_hours",
+       "patterns": ["How many credit hours should we complete to get degree.", "credit hours"],
+     "responses": ["It's detail for each field is available on website."]
+    },
+    {"tag": "repetition_of_course",
+       "patterns": ["how many courses student can repeat at a time?","repeat course", "repeat", "repeatcourse","Can i repeat course?"],
+     "responses": ["Yes, ofcourse. He can apply."]
+    },
+    {"tag": "admission_cancel",
+       "patterns": ["When will my admission get automatically cancelled?", "admissioncancel", "cancel"],
+     "responses": ["A student's admission will be cancelled automatically after completion of maximum duration (7 years) allowed to earn a degree unless extension is approved by competent authority."]
+    },
+    {"tag": "credit_hours",
+       "patterns": ["please tell me about credit hours?","details of credit hours", "credit hours"],
+     "responses": ["One credit hour means teaching a theory course for one classroom-teaching hour each week throughout the semester."]
+    },
+    {"tag": "class_duration",
+       "patterns": ["what is the maximum and minimum duration of the classes?","duration", "classes_time","classtime", "class time", "time", ""],
+     "responses": ["Duration of classes is usually 1 hour (3 classes/week) for core courses and 1.5 hour (2 classes/week) for electives."]
+    },
+    {"tag": "suffa_history",
+       "patterns": ["when suffa is develop?", "when suffa made?", "suffa history?","suffa history", "suffahistory?", "history", "when suffa is established", "established"],
+     "responses": ["DHA Suffa University was granted Charter by the Government of Sindh in 2002 and was established in 2012.The university derives its name \"Suffa\" from the rectangular platform called Suffah in Al-Masjid an-Nabawi, where companions of Muhammad used to gather to seek knowledge."]
+    },
+    {"tag": "suffa_location",
+       "patterns": ["where is suffa located?", "location", "exists", "suffa location", "suffalocation", "location", "suffa where","where is suffa", "where's suffa", "suffa on earth"],
+     "responses": ["It's main campus is in DHA,Off Khayaban-e-Tufail، Ext، Phase 7 Ext Karachi."]
+    },
+    {"tag": "dean",
+       "patterns": ["who is the dean?", "dean", "dean name"],
+     "responses": ["Prof. Dr. Johar K. Farooqi"]
+    },
+    {"tag": "suffa_campuses",
+       "patterns": ["does suffa have multiple campuses?"],
+     "responses": ["Yes, it has 2 campuses, main campus and city campus."]
+    },
+    {"tag": "facilities",
+       "patterns": ["what are the facilities available in suffa?", "facilities", "facilities in suffa", "suffa facilities", "list of facilities", "library", "audi", "auditorium", "internet", "generator", "wifi", "backup electricity", "play ground", "indoor games", "gcr", "conference", "garden", "lab", "cafeteria", "libray in suffa", "indoor game in suffa", "labs in suffa", "cafeteria in suffa", "garden in suffa", "lab in suffa", "auditorium in suffa", "advance lab in suffa", "advance engineering labs in suffa", "stationary shop in suffa", "mosque in suffa", "masjid in suffa", "masjid", "play ground in suffa"],
+     "responses": ["Suffa is built on international standard universities systems and working day and night for its improvement. It has multiple facilities. Like<br>1)High speed Internet.      2)Stand-by Generator.<br>3)Air-Conditioner classes & labs.      4)Masjid.<br>5)Indoor games.      6)Library & Auditorium.<br>7)Conference room.      8)Stationary shop.<br>9)Cafeteria.      10)Advance Engineering Labs."]
+    },
+    {"tag": "transport",
+       "patterns": ["is there any transportation system in suffa for staff and students?", "transport", "transportation", "transportation", "point"],
+     "responses": ["Yes, ofcourse. Suffa has point facility."]
+    },
+    {"tag": "picnic",
+       "patterns": ["Are there any annual picnics?", "picnic","annual picnic"],
+     "responses": ["Yes, once in a year."]
+    },
+    {"tag": "trips",
+       "patterns": ["does suffa organize outdoor trips?", "trip", "trips", "organize trip", "suffa trip", "suffatrip"],
+     "responses": ["Suffa organize national and international trips during semester break."]
+    },
+    {"tag": "chancellor",
+       "patterns": ["Who is the chancellor of university?", "chancellor of uni", "suffa chancellor", "chancellor", "suffa vc"],
+     "responses": ["Lt Gen Muhammad Saeed HI(M)"]
+    },
+    {"tag": "hec",
+       "patterns": ["is suffa hec recognized university?", "HEC recognized?", "Is suffa HEC recognized?", "recognized"],
+     "responses": ["DHA Suffa University was recognized as a private sector degree awarding institution by the Higher Education Commission of Pakistan (HEC) in the year 2012."]
+    },
+    {"tag": "teachers",
+       "patterns": ["are the teachers from technical side?", "what type of teachers suffa have?"],
+     "responses": ["Suffa has most top of the line teachers who have studied from abroad and vast experience in their respective fields"]
+    },
+    {"tag": "total_strength",
+       "patterns": ["What is the total number of staff and teachers in suffa?", "suffa strength of staff and teachers", "suffa strength"],
+     "responses": ["Suffa Academic staff is 121 and Administrative staff is 222."]
+    },
+    {"tag": "A_I_faculty",
+       "patterns": ["who is the best teacher among faculty in Artificial Intelligence?", "suffa ai faculty", "suffa artificial intelligence teacher", "suffa ai teacher", "Suffa AI Teacher"],
+     "responses": ["Sir Zahid Hussain."]
+    },
+    {"tag": "freeze_semester",
+       "patterns": ["can we freeze our semester?", "freeze", "studentfreeze","freeze semester policy"],
+     "responses": ["A student may request freezing of his/her admission for up to 2 semesters along with prescribed Semester Freeze charges."]
+    },
+    {"tag": "artificial_intelligence",
+       "patterns": [" What is AI?", "Ai", "AI", "artificial intelligence","Artificial Intelligence"],
+     "responses": ["Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.", "AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."]
+    },
+    {"tag": "coffee",
+       "patterns": ["can you make coffee", "i need coffee", "coffee","want to order coffee"],
+     "responses": ["No, sorry! ask question related to university only. Thanks"]
+    },
+    {"tag": "computer",
+       "patterns": ["What is a computer?", "computer", "pc", "personal computer", "system"],
+     "responses": ["An electronic device capable of performing calculations at very high speed and with very high accuracy.","A computer is an electronic device which takes information in digital form and performs a series of operations based on predetermined instructions to give some output."]
+    },
+    {"tag": "joke",
+       "patterns": ["tell me a joke", "joke", "funny"],
+     "responses": ["Why do we tell actors to “break a leg?”<br>Because every play has a cast."]
+       },
+    {"tag": "website",
+       "patterns": ["suffa website", "what is suffa website", "tell me about website"],
+     "responses": ["www.dsu.edu.pk"]
+    }
+  ]
+}
